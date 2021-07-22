@@ -100,7 +100,11 @@ ___This shows that class Van HAS-A Speed.___
   * A class inherits from more than one super class (It is not supported by Java)
 
 ## Overriding
+> If a class inherits a method from its superclass, then there is a chance to override the method provided that it is not marked final.
+>The benefit of overriding is: ability to define a behavior that's specific to the subclass type, which means a subclass can implement a parent class method based on its requirement.
+>In object-oriented terms, overriding means to override the functionality of an existing method.
 
+In compile time, the check is made on the reference type. However, in the runtime, JVM figures out the object type and would run the method that belongs to that particular object.
 
 ## Polymorphism
 
