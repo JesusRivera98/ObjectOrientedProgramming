@@ -123,6 +123,28 @@ In compile time, the check is made on the reference type. However, in the runtim
 > When invoking a superclass version of an overridden method the super keyword is used.
 
 ## Polymorphism
+> Polymorphism is the ability of an object to take on many forms. The most common use of polymorphism in OOP occurs when a parent class reference is used to refer to a child class object.
+
+```Java
+public interface Vegetarian{}
+public class Animal{}
+public class Deer extends Animal implements Vegetarian{}
+```
+Deer class is considered to be polymorphic since this has multiple inheritance.
+* A Deer IS-A Animal
+* A Deer IS-A Vegetarian
+* A Deer IS-A Deer
+* A Deer IS-A Object
+```Java
+Deer d = new Deer();
+Animal a = d;
+Vegetarian v = d;
+Object o = d;
+```
+___All the reference variables d, a, v, o refer to the same Deer object in the heap.___
+
+### Virtual Methods
+> An overridden method is essentially hidden in the parent class, and is not invoked unless the child class uses the super keyword within the overriding method.
 
 
 ## Abstraction
