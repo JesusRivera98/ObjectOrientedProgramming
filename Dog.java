@@ -1,16 +1,9 @@
-class Animal {
-}
-
-class Mammal extends Animal {
-}
-
-class Reptile extends Animal {
-}
+interface Animal{}
+class Mammal implements Animal{}
 
 public class Dog extends Mammal {
 
    public static void main(String args[]) {
-      Animal a = new Animal();
       Mammal m = new Mammal();
       Dog d = new Dog();
 

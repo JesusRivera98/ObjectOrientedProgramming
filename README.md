@@ -73,6 +73,32 @@ If we consider the IS-A relationship:
 * Dog IS-A Mammal
 * Hence: Dog IS-A Animal as well
 
+### The instanceof Keyword
+> Let us use the instanceof operator to check determine whether Mammal is actually an Animal, and dog is actually an Animal.
+
+### HAS-A relationship
+> These relationships are mainly based on the usage. This determines whether a certain class HAS-A certain thing. This relationship helps to reduce duplication of code as well as bugs.
+
+```Java
+public class Vehicle{}
+public class Speed{}
+
+public class Van extends Vehicle {
+   private Speed sp;
+} 
+```
+___This shows that class Van HAS-A Speed.___
+
+### Types
+* **Single:**
+  * A single super and a single subclass
+* **Multi Level:**
+  * A class inherits from another class that inherits from a super class
+* **Herarchical:**
+  * More than one class inherits from a superclass
+* **Multiple:**
+  * A class inherits from more than one super class (It is not supported by Java)
+
 ## Overriding
 
 
