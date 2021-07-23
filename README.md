@@ -4,6 +4,10 @@
 
 
 ### Pillars
+* [Encapsulation](#encapsulation)
+* [Inheritance](#inheritance) 
+* [Polymorphism](polymorphism)
+* [Abstraction](abstraction)
 
 
 ### Advantages
@@ -162,10 +166,34 @@ A class which contains the abstract keyword in its declaration is known as abstr
 * To use an abstract class, you have to inherit it from another class, provide implementations to the abstract methods in it.
 * If you inherit an abstract class, you have to provide implementations to all the abstract methods in it.
 
+### Abstract Methods
+If you want a class to contain a particular method but you want the actual implementation of that method to be determined by child classes, you can declare the method in the parent class as an abstract.
+
+* abstract keyword is used to declare the method as abstract.
+* You have to place the abstract keyword before the method name in the method declaration.
+* An abstract method contains a method signature, but no method body.
+* Instead of curly braces, an abstract method will have a semoi colon (;) at the end.
+
+Declaring a method as abstract has two consequences −
+
+* The class containing it must be declared as abstract.
+* Any class inheriting the current class must either override the abstract method or declare itself as abstract.
+
+> ___**Note:** Eventually, a descendant class has to implement the abstract method; otherwise, you would have a hierarchy of abstract classes that cannot be instantiated.___
+
 ## Ecapsulation
 
+Encapsulation is one of the four fundamental OOP concepts. The other three are inheritance, polymorphism, and abstraction.
+
+> Encapsulation in Java is a mechanism of wrapping the data (variables) and code acting on the data (methods) together as a single unit. In encapsulation, the variables of a class will be hidden from other classes, and can be accessed only through the methods of their current class. Therefore, it is also known as data hiding.
+
+To achieve encapsulation in Java −
+
+* Declare the variables of a class as private.
+
+* Provide public setter and getter methods to modify and view the variables values.
 
 ## Interfaces
 
 
-## PAckages
+## Packages
