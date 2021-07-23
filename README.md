@@ -6,8 +6,8 @@
 ### Pillars
 * [Encapsulation](#encapsulation)
 * [Inheritance](#inheritance) 
-* [Polymorphism](polymorphism)
-* [Abstraction](abstraction)
+* [Polymorphism](#polymorphism)
+* [Abstraction](#abstraction)
 
 
 ### Advantages
@@ -181,7 +181,7 @@ Declaring a method as abstract has two consequences −
 
 > ___**Note:** Eventually, a descendant class has to implement the abstract method; otherwise, you would have a hierarchy of abstract classes that cannot be instantiated.___
 
-## Ecapsulation
+## Encapsulation
 
 Encapsulation is one of the four fundamental OOP concepts. The other three are inheritance, polymorphism, and abstraction.
 
