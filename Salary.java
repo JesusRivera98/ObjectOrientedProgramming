@@ -1,6 +1,6 @@
 /* File name : Salary.java */
 public class Salary extends Employee {
-   private double salary; // Annual salary
+   private double salary;   // Annual salary
    
    public Salary(String name, String address, int number, double salary) {
       super(name, address, number);
@@ -9,10 +9,9 @@ public class Salary extends Employee {
    
    public void mailCheck() {
       System.out.println("Within mailCheck of Salary class ");
-      System.out.println("Mailing check to " + getName()
-      + " with salary " + salary);
+      System.out.println("Mailing check to " + getName() + " with salary " + salary);
    }
-   
+ 
    public double getSalary() {
       return salary;
    }
