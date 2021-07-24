@@ -1,4 +1,6 @@
+package animals;
 /* File name : MammalInt.java */
+
 public class MammalInt implements Animal {
 
    public void eat() {

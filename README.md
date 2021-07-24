@@ -277,3 +277,7 @@ public interface Hockey extends Sports, Event
 ```
 
 ## Packages
+
+> Packages are used in Java in order to prevent naming conflicts, to control access, to make searching/locating and usage of classes, interfaces, enumerations and annotations easier, etc.
+
+> A Package can be defined as a grouping of related types (classes, interfaces, enumerations and annotations ) providing access protection and namespace management.
